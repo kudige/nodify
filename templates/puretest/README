@@ -1,0 +1,10 @@
+To test Pure templating for a big test file try this:
+$ time node runpure.js bigtest.html 1000 v3
+to see how fast Pure V3 can substitute 1000 variables in a big HTML file
+
+You can also try:
+
+$ time node runpure.js bigtest.html 1000 v2
+$ time node runpure.js bigtest.html 1000 dom
+to test the same thing using the older Pure v2 code and direct jsdom query selectors respectively
+
